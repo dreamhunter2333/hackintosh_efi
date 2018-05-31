@@ -188,7 +188,7 @@
 			<key>SlpSmiAtWake</key>
 			<true/>
 			<key>SuspendOverride</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -211,6 +211,8 @@
 		<false/>
 		<key>HaltEnabler</key>
 		<false/>
+		<key>PatchAPIC</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -222,16 +224,14 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
-			<key>PluginType</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-xcpm nvda_drv=1 kext-dev-mode=1</string>
+		<string>nvda_drv=1 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>mac</string>
 		<key>Legacy</key>
@@ -383,6 +383,8 @@
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
+		<key>KernelCpu</key>
+		<false/>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
