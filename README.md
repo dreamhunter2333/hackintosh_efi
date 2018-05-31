@@ -6,4 +6,3 @@ gpu:   750ti
 \
 audio: alc 887
 \
-
