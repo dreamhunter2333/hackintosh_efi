@@ -1,6 +1,6 @@
 # hackintosh_efi
 
-#### CPU:   i5 3470 
+### CPU:   i5 3470 
 
 ### GPU:   750ti
 
