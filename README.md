@@ -1,10 +1,9 @@
 # hackintosh_efi
 \
-cpu:   i5 3470 
+## CPU:   i5 3470 
 \
-gpu:   750ti
+## GPU:   750ti
 \
-audio: alc 887
+## AUDIO: alc 887
 \
-wan:   Realtek RTL8100
-
+## WAN:   Realtek RTL8100
