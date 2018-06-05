@@ -186,9 +186,9 @@
 				</dict>
 			</array>
 			<key>SlpSmiAtWake</key>
-			<true/>
+			<false/>
 			<key>SuspendOverride</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -212,7 +212,7 @@
 		<key>HaltEnabler</key>
 		<false/>
 		<key>PatchAPIC</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -305,7 +305,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>5</string>
+			<integer>5</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
